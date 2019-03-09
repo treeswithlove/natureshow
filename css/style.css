@@ -1,3 +1,8 @@
+html,body {
+    margin: 0px;
+    padding: 0px;
+    background-color: black;
+}
 ul{
     list-style: none;
     display: flex;
@@ -6,13 +11,24 @@ ul{
 }
 nav {
     background-color: black;
-    color: white;
+    color:white;
+    border: solid white;
 }
 a {
   text-decoration: none;
-  color: white;
+  color:white;
 }
 
-.frontSlide {
-
+.frontSlider {
+    background: url(../images/pic1.jpeg) no-repeat;
+    width: 100vw;
+    height: 92vh;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+h1 {
+    font-size: 100px;
 }
